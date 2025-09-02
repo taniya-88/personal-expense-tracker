@@ -1,0 +1,123 @@
+/* Report.css */
+
+.report-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+.title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 25px;
+    color: #2c3e50;
+}
+
+/* Controls */
+.controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    margin-bottom: 30px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.95rem;
+}
+
+.form-group label {
+    margin-bottom: 6px;
+    font-weight: 500;
+    color: #555;
+}
+
+.form-group input,
+.form-group select {
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    transition: border 0.2s ease;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    border-color: #2980b9;
+    outline: none;
+}
+
+.btn {
+    padding: 10px 16px;
+    border: none;
+    border-radius: 8px;
+    background: #3498db;
+    color: #fff;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    margin-top: auto;
+}
+
+.btn:hover {
+    background: #2980b9;
+}
+
+/* Report Box */
+.report-box {
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.report-box h2 {
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+    color: #34495e;
+}
+
+.total {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.total span {
+    font-weight: bold;
+    color: #27ae60;
+}
+
+/* Categories Grid */
+.category-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+}
+
+.category-card {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 0.95rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.category-card span {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+.category-card strong {
+    font-size: 1.1rem;
+    color: #2c3e50;
+}
